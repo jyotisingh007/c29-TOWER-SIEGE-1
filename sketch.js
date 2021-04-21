@@ -62,7 +62,7 @@ function setup() {
   World.add(world,ball);
 
   slingShot = new Slingshot(this.ball,{x:100,y:200});
-
+console.log("hello");
 }
 function draw() {
   background(56,44,44); 
